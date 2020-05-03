@@ -1,0 +1,351 @@
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(imagenes/gaming.jpeg);
+    background-position: center top;
+    background-size:cover;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+body {
+    background-image: url(imagenes/razer.png);
+    background-repeat: repeat;
+    background-size: 10%;
+}
+
+.home h1 {
+    color: rgb(17, 255, 0);
+}
+
+ .p-6 {
+    padding: 4rem 0.75rem;
+  }
+  
+  .btn-success {
+	  background-color: #00e00b;
+  }
+
+ .btn-verde {
+    background-color: #ffffff;
+    border-color: #000000;
+    color: rgb(0, 0, 0);
+  }
+  
+ .btn-verde:hover {
+    background-color: #00ff37;
+	border-color: #f3f2f2;
+	color: #00ff22;
+  }
+  
+ .icono-grande {
+    font-size: 100px;
+  }
+
+ .bg-success {
+    background-color: #00ff0d!important;
+	}
+	
+
+  .btn:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(17, 255, 0);
+  }
+
+  .navbar-brand:hover {
+    background-color: rgb(131, 243, 56);
+    color: #00ff37;
+  }
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+html{ 
+  background-size: cover;
+  height:100%;
+}
+
+#feedback-page{
+	text-align:center;
+}
+
+#form-main{
+	width:100%;
+	/* float:left; */
+	padding-top:0px;
+}
+
+#form-div {
+	background-color:rgba(72,72,72,0.4);
+	padding-left:35px;
+	padding-right:35px;
+	padding-top:35px;
+	padding-bottom:50px;
+	width: 450px;
+	/* float: left; */
+	left: 50%;
+	/* position: absolute; */
+  margin-top:30px;
+	/* margin-left: -260px; */
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+}
+
+.feedback-input {
+	color:#3c3c3c;
+	font-family: Helvetica, Arial, sans-serif;
+    font-weight:500;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #fbfbfb;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
+}
+
+.feedback-input:focus{
+	background: #fff;
+	box-shadow: 0;
+	border: 3px solid #00ff22;
+	color: #00ff22;
+	outline: none;
+    padding: 13px 13px 13px 54px;
+}
+
+.focused{
+	color:#000000;
+	border:#000000 solid 3px;
+}
+
+/* ICONOS */
+#name{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#name:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 8px 5px;
+    background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+    background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#comment{
+	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	background-color:white;
+}
+
+#button-blue{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	float:left;
+	width: 100%;
+	border: #00ff22 solid 4px;
+	cursor:pointer;
+	background-color: #000000;
+	color:#ffffff;
+	font-size:24px;
+	padding-top:22px;
+	padding-bottom:22px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+    margin-top:-4px;
+    font-weight:700;
+}
+
+#button-blue:hover{
+	background-color: #00ff22;
+	color: #000000;
+}
+	
+.submit:hover {
+	color: #000000;
+}
+	
+.ease {
+	width: 0px;
+	height: 74px;
+	background-color: #fbfbfb;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease;
+	-ms-transition: .3s ease;
+	transition: .3s ease;
+}
+
+.submit:hover .ease{
+  width:100%;
+  background-color:white;
+}
+
+@media only screen and (max-width: 580px) {
+	#form-div{
+		left: 3%;
+		margin-right: 3%;
+		width: 88%;
+		margin-left: 0;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+}
+
+footer ul {list-style-type: none;
+	margin:0;
+	padding:0;
+}
+
+.bg-color{
+background-color: #02dd1f ;
+
+}
+.textofooter{
+color: black;
+
+}
+
+.container {
+	padding: 20px;
+  }
+  
+.profile-card {
+    background-color: #222222;
+	margin-bottom: 20px;
+	image: 10px;
+			  
+		  }
+		  
+  .profile-pic {
+	border-radius: 50%;
+	position: absolute;
+	top: -65px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	z-index: 1;
+	max-width: 100px;
+	-webkit-transition: all 0.4s;
+			transition: all 0.4s;
+				  }
+  
+				  
+  .profile-info {
+		  color: #BDBDBD;
+		  padding: 25px;
+		  position: relative;
+		  margin-top: 15px;
+				  }
+		  
+  .profile-info h2 {
+	  color: #E8E8E8;
+	  letter-spacing: 4px;
+		padding-bottom: 12px;
+				  }
+				  
+  .profile-info span {
+	  display: block;
+	  font-size: 12px;
+	  color: #4CB493;
+	  letter-spacing: 2px;
+			  }
+  
+  .profile-info a {
+	   color: #4CB493;
+		  }
+  .profile-info i {
+		  padding: 15px 35px 0px 35px;
+		  }
+		  
+  
+  .profile-card:hover .profile-pic {
+	  transform: scale(1.1);
+		  }
+  
+  .profile-card:hover .profile-info hr  {
+	  opacity: 1;
+		  }
+		  
+		  
+		  
+		  
+  /* Underline From Center */
+  .hvr-underline-from-center {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	position: relative;
+	overflow: hidden;
+  }
+  .hvr-underline-from-center:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	left: 52%;
+	right: 52%;
+	bottom: 0;
+	background: #FFFFFF;
+	border-radius: 50%;
+	height: 3px;
+	-webkit-transition-property: all;
+	transition-property: all;
+	-webkit-transition-duration: 0.2s;
+	transition-duration: 0.2s;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+  }
+  .profile-card:hover .hvr-underline-from-center:before, .profile-card:focus .hvr-underline-from-center:before, .profile-card:active .hvr-underline-from-center:before {
+	left: 0;
+	right: 0;
+	height: 1px;
+	background: #CECECE;
+	border-radius: 0;
+  }
+
+
+
+
+
+
+
+
+
